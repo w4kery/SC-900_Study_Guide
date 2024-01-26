@@ -44,34 +44,37 @@
   - Example: User logging into a third-party site with a social media account.
 
 ## 2. Describe the capabilities of Microsoft Entra (25–30%)
-### Microsoft Entra ID:
+### Describe function and identity types of Microsoft Entra ID
+#### Microsoft Entra ID:
 - Formerly Azure Active Directory.
 - Cloud-based identity and access management service.
 - Enables user access to resources.
 - Key Features: Unified identity system, secure access to personal devices, collaboration with partners.
 - Identity Secure Score: Percentage indicating security alignment.
 
-### Types of Identities in Microsoft Entra ID:
+#### Types of Identities in Microsoft Entra ID:
 - User Identities: Internal members, external guests, external members, internal guests.
 - Device Identities: Registered, joined, hybrid joined devices.
 - Workload Identities: Applications, service principals, managed identities.
 - Groups: Security groups, Microsoft 365 groups.
 
-### Hybrid Identities:
+#### Hybrid Identities:
 - Combines on-premises and cloud-based capabilities.
 - Components: Provisioning and synchronization.
 - Microsoft Entra Cloud Sync: Facilitates provisioning and synchronization.
 - SCIM Specification: Utilizes System for Cross-domain Identity Management.
 
-### External Identities:
+#### External Identities:
 - B2B Collaboration, B2B Direct Connect, External ID for Customers (Preview), Multi-tenant Organizations.
 
-### Authentication Methods for Microsoft Entra ID:
+### Describe authentication capabilities of Microsoft Entra ID
+
+#### Authentication Methods for Microsoft Entra ID:
 - Passwords, phone (SMS and voice call), OATH (TOTP), Passwordless (Windows Hello, FIDO2, Authenticator App, Certificate-based).
 - OATH Hardware Token (Preview).
 - Certificate-based Authentication (CBA) utilizes X.509 certificates.
 
-### Multi-Factor Authentication (MFA):
+#### Multi-Factor Authentication (MFA):
 - Requires multiple forms of identification during sign-in.
 - Components: Something you know, have, and are.
 - Methods: Authenticator app, Windows Hello, FIDO2 key, OATH hardware token, OATH software token, SMS, voice call.
@@ -80,21 +83,21 @@
 - SSPR Authentication Methods: Mobile app, email, security questions.
 - Password Write-Back updates on-premises Active Directory.
 
-### Password Protection and Management Capabilities in Microsoft Entra ID:
-#### Global Banned Password List:
+#### Password Protection and Management Capabilities in Microsoft Entra ID:
+##### Global Banned Password List:
 - Microsoft Entra ID employs a Global Banned Password List automatically updated and enforced by Microsoft.
 - This list blocks known weak passwords and their variations, maintained by the Microsoft Entra ID Protection team using security telemetry data.
 - Examples of blocked passwords include P@$$w0rd or Passw0rd1 and their variations, created through case transpositions and letter-to-number substitutions.
 
-#### Custom Banned Password Lists:
+##### Custom Banned Password Lists:
 - Admins can create custom lists aligning with specific business security needs.
 - These lists prohibit passwords related to organizational terms, enhancing security by focusing on organization-specific terms in addition to the global banned password list.
 
-#### Protection Against Password Spray:
+##### Protection Against Password Spray:
 - Defending against password spray attacks, Microsoft Entra ID efficiently blocks millions of common weak passwords using real-world security telemetry data.
 - Fuzzy-matching techniques identify approximate pattern matches, ensuring robust protection.
 
-#### Hybrid Security Integration:
+##### Hybrid Security Integration:
 - Integrating Microsoft Entra password protection within on-premises Active Directory environments ensures consistent password protection across both cloud and on-premises environments.
 - This integration involves a component installed in the on-premises environment that receives global banned password lists and custom password protection policies, used by domain controllers to process password change events.
 
@@ -105,11 +108,11 @@
 - The assignments section controls the who, what, where, and when of the Conditional Access policy.
 - It specifies users, groups, cloud apps or actions, and conditions such as sign-in risk, user risk, devices platform, IP location information, client apps, and filters for devices.
 
-#### Access Controls:
+##### Access Controls:
 - Access controls determine how a policy is enforced after application.
 - This includes blocking access, granting access with or without additional controls, and session controls like Conditional Access App Control for specific application restrictions.
 
-#### Conditional Access Overview:
+##### Conditional Access Overview:
 - Microsoft Entra ID's Conditional Access policies automate access decisions based on signals like user attributes, location, device information, applications, and risk factors.
 - The combination of assignments (who, what, where, when) and access controls (how) provides a granular and adaptive approach to securing access.
 
@@ -134,9 +137,9 @@
 
 *Note: Custom roles in Microsoft Entra require a Microsoft Entra ID P1 or P2 license, offering a flexible approach to secure access control.*
 
-## 3. Describe the capabilities of Microsoft security solutions (35–40%)
-### Microsoft Entra ID Governance:
-#### Identity Lifecycle Management:
+### Describe identity protection and governance capabilities of Microsoft Entra
+#### Microsoft Entra ID Governance:
+##### Identity Lifecycle Management:
 - The identity lifecycle management process involves join, move, and leave processes, ensuring consistency in user accounts.
 - Integration with HR systems maintains alignment with properties like department or employment status.
 
@@ -150,35 +153,35 @@
 
 *Summary: Microsoft Entra ID Governance focuses on identity and access lifecycle management, ensuring efficiency, and integration with HR systems, dynamic groups, and Microsoft Entra PIM contribute to a robust governance framework.*
 
-### Access Reviews:
-#### Key Use Cases:
+#### Access Reviews:
+##### Key Use Cases:
 - Access reviews play a crucial role in evaluating privileged roles, critical data access, policy exceptions, guest user necessity, and recurring validation at specified frequencies.
 
-#### Management with Access Reviews:
+##### Management with Access Reviews:
 - Participants, recertification, review stages, smart recommendations, and progress tracking are essential aspects of access review management.
 - It ensures a comprehensive and intelligent approach to validating access.
 
-#### Entitlement Management: Capabilities:
+##### Entitlement Management: Capabilities:
 - Entitlement management automates access request workflows, assignments, reviews, and expiration.
 - It addresses challenges related to managing the identity and access lifecycle, ensuring secure and controlled access to resources.
 
-#### Microsoft Entra Terms of Use: Key Features:
+##### Microsoft Entra Terms of Use: Key Features:
 - Terms of use in PDF format with conditional access integration ensure user acknowledgment before accessing applications.
 - Admin visibility allows tracking user acceptance or rejection of terms.
 
 *Summary: Access reviews, entitlement management, and terms of use collectively contribute to a robust identity governance framework within Microsoft Entra ID, ensuring security, compliance, and efficient access management.*
 
-### Privileged Identity Management (PIM) Overview:
+#### Privileged Identity Management (PIM) Overview:
 - PIM in Microsoft Entra ID ensures controlled, monitored, and just-in-time privileged access.
 - Its capabilities include just-in-time access, time-bound assignments, approval-based activations, visible notifications, auditable access history, and oversight of administrator privileges.
 
-#### Why Use PIM?
+##### Why Use PIM?
 - PIM reduces risks associated with misuse and unnecessary access, providing oversight of administrator privileges.
 
-#### Workflow:
+##### Workflow:
 - The PIM workflow involves assigning roles, activating roles with specified durations and reasons, approving/denying access by delegated approvers, and extending/renewing role assignments.
 
-#### Audit:
+##### Audit:
 - PIM audit history tracks role assignments and activations for privileged roles, ensuring transparency and accountability.
 
 #### Microsoft Entra ID Protection Overview: Capabilities:
@@ -196,34 +199,34 @@
 
 *Note: Microsoft Entra ID Protection now includes workload identity protection for applications and service principals, managing risks associated with their unique characteristics.*
 
-### Microsoft Entra Permissions Management:
-#### Overview:
+#### Microsoft Entra Permissions Management:
+##### Overview:
 - Cloud Infrastructure Entitlement Management (CIEM) for Azure, AWS, and GCP supports Zero Trust least privilege access.
 - It addresses multicloud challenges, risk complexity, and security compliance.
 
-#### Capabilities:
+##### Capabilities:
 - CIEM capabilities include cross-cloud permissions discovery, automated deletion of unused permissions, on-demand permissions, ML-powered anomaly detections, and forensic reports for enhanced security monitoring.
 
-#### Microsoft Entra Verified ID: Overview:
+##### Microsoft Entra Verified ID: Overview:
 - Managed verifiable credentials service automates identity credential verification with privacy protection.
 - It addresses challenges of online transactions and digital identity control.
 
-#### Key Features:
+##### Key Features:
 - Verifiable credentials are cryptographically secure, privacy-compliant, and machine-readable.
 - They enable control over when and how digital identities are used.
 
-#### Working Mechanism:
+##### Working Mechanism:
 - Issuers provide digitally signed credentials, users receive, approve, and store credentials, and verifiers request and verify credential claims.
 
-#### Verifiable Data Registry:
+##### Verifiable Data Registry:
 - A collection of systems for metadata supports scenarios like credential expiration and revocation, ensuring a trust system for verifying credentials.
 
-#### Benefits:
+##### Benefits:
 - Automated verification of secure and privacy-protected credentials enhances online transactions' security and privacy compliance.
 
 *Summary: Access reviews, entitlement management, terms of use, PIM, Microsoft Entra ID Protection, permissions management, and verified ID collectively contribute to a comprehensive identity and access management framework within Microsoft Entra ID.*
 
-## Describe the capabilities of Microsoft security solutions (35–40%)
+## 3. Describe the capabilities of Microsoft security solutions (35–40%)
 
 ### Azure DDoS Protection
 
