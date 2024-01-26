@@ -1,49 +1,49 @@
-# SC-900_Study_Guide
-
 # Outline for Microsoft SC-900 Exam Study Guide
 
 ## 1. Describe the concepts of security, compliance, and identity (10–15%)
-### Shared Responsibility Model:
+### Describe security and compliance concepts
+#### Shared Responsibility Model:
 - On-premises: Customer handles everything.
 - IaaS: Customer not responsible for physical components.
 - PaaS: Cloud provider manages hardware and OS; customer handles applications and data.
 - SaaS: Cloud provider manages everything except data, devices, accounts, and identities.
 - Customer Responsibilities: Information, devices (mobile and PCs), accounts, and identities.
 
-### Defense in Depth:
+#### Defense in Depth:
 - Multilayered security approach.
 - Layers include physical security, identity controls, perimeter security, network security, compute layer security, application layer security, and data layer security.
 - Emphasizes confidentiality, integrity, and availability.
 
-### Zero Trust Model:
+#### Zero Trust Model:
 - Guiding Principle: "Trust no one, verify everything."
 - Principles: Verify explicitly, least privileged access, assume breach.
 - Six Foundational Pillars: Identities, devices, applications, data, infrastructure, networks.
 
-### Governance, Risk, and Compliance (GRC) Concepts:
+#### Governance, Risk, and Compliance (GRC) Concepts:
 - Governance: Rules and practices for directing activities.
 - Risk Management: Identifying, assessing, and responding to threats.
 - Compliance: Adherence to laws and regulations.
 - Compliance-Related Concepts: Data residency, data sovereignty, data privacy.
 
-## 2. Describe the capabilities of Microsoft Entra (25–30%)
-### Identity Concepts:
-- Identity as the Primary Security Perimeter:
+### Define identity concepts
+
+#### Identity as the Primary Security Perimeter:
   - Considers identity as the primary factor in security.
   - Four Pillars: Administration, authentication, authorization, auditing.
-- Identity Provider:
+#### Identity Provider:
   - Manages identity information and provides authentication, authorization, and auditing services.
   - Modern Authentication: Client-server authentication using security tokens.
   - Example: Microsoft Entra ID.
-- Directory Services and Active Directory:
+#### Directory Services and Active Directory:
   - Directory Services: Hierarchical structure storing network object information.
   - Active Directory (AD): Microsoft's on-premises directory service.
   - AD DS Functionality: Manages on-premises infrastructure components using a single user identity.
   - Microsoft Entra ID: Cloud-based identity provider.
-- Federation:
+#### Federation:
   - Enables service access across domain boundaries.
   - Example: User logging into a third-party site with a social media account.
 
+## 2. Describe the capabilities of Microsoft Entra (25–30%)
 ### Microsoft Entra ID:
 - Formerly Azure Active Directory.
 - Cloud-based identity and access management service.
