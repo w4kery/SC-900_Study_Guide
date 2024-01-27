@@ -307,7 +307,7 @@
    - Defends against application-layer DDoS attacks (e.g., HTTP Floods).
    - Ensures robust protection against application threats.
 
-#### Describe nNetwork Segmentation in Azure (Alpha)
+#### Describe Network Segmentation in Azure
 
 ##### Overview
 - Division of the network into smaller segments.
