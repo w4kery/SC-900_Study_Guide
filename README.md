@@ -45,7 +45,7 @@
 
 ## 2. Describe the capabilities of Microsoft Entra (25–30%)
 ### Describe function and identity types of Microsoft Entra ID
-#### Microsoft Entra ID:
+#### Describe Microsoft Entra ID:
 - Formerly Azure Active Directory.
 - Cloud-based identity and access management service.
 - Enables user access to resources.
@@ -64,7 +64,7 @@
 - Microsoft Entra Cloud Sync: Facilitates provisioning and synchronization.
 - SCIM Specification: Utilizes System for Cross-domain Identity Management.
 
-#### External Identities:
+##### External Identities:
 - B2B Collaboration, B2B Direct Connect, External ID for Customers (Preview), Multi-tenant Organizations.
 
 ### Describe authentication capabilities of Microsoft Entra ID
@@ -103,8 +103,8 @@
 
 *Note: Banned password lists are part of Microsoft Entra ID P1 or P2 licensing, providing an effective defense against password spray attacks and offering flexibility through custom lists.*
 
-### Access Management Capabilities of Microsoft Entra ID:
-#### Conditional Access Policy Components: Assignments:
+### Describe access management capabilities of Microsoft Entra ID
+#### Describe Microsoft Entra ID Conditional Access
 - The assignments section controls the who, what, where, and when of the Conditional Access policy.
 - It specifies users, groups, cloud apps or actions, and conditions such as sign-in risk, user risk, devices platform, IP location information, client apps, and filters for devices.
 
@@ -116,44 +116,44 @@
 - Microsoft Entra ID's Conditional Access policies automate access decisions based on signals like user attributes, location, device information, applications, and risk factors.
 - The combination of assignments (who, what, where, when) and access controls (how) provides a granular and adaptive approach to securing access.
 
-#### Microsoft Entra Roles and RBAC: Microsoft Entra Roles and RBAC Overview:
+#### Describe Microsoft Entra roles and role-based access control (RBAC)
 - Microsoft Entra roles control permissions, utilizing Role-Based Access Control (RBAC).
 - This involves built-in roles like Global Administrator, User Administrator, and Billing Administrator, as well as custom roles that grant specific permissions.
 - Adhering to the least privilege principle, these roles ensure secure access management.
 
-#### Role Categories:
+##### Role Categories:
 - Roles are categorized into Microsoft Entra specific roles, service-specific roles, and cross-service roles.
 - This categorization aids in providing tailored access control across Microsoft 365 services.
 
-#### Granting Access Using Custom Roles:
+##### Granting Access Using Custom Roles:
 - Custom roles involve defining role permissions, assigning these permissions to users or groups, and specifying the scope of access, whether organization-wide or at the object level.
 
-#### Categories of Microsoft Entra Roles:
+##### Categories of Microsoft Entra Roles:
 - Roles are categorized based on Microsoft 365 services, service-specific roles, and cross-service roles, ensuring a flexible approach to access management.
 
-#### Microsoft Entra RBAC vs. Azure RBAC:
+##### Microsoft Entra RBAC vs. Azure RBAC:
 - Microsoft Entra RBAC controls access to Microsoft Entra-specific resources, while Azure RBAC controls access to Azure resources.
 - The distinction lies in storage and data stores, as well as policy decision points.
 
 *Note: Custom roles in Microsoft Entra require a Microsoft Entra ID P1 or P2 license, offering a flexible approach to secure access control.*
 
 ### Describe identity protection and governance capabilities of Microsoft Entra
-#### Microsoft Entra ID Governance:
+#### Describe Microsoft Entra ID Governance:
 ##### Identity Lifecycle Management:
 - The identity lifecycle management process involves join, move, and leave processes, ensuring consistency in user accounts.
 - Integration with HR systems maintains alignment with properties like department or employment status.
 
-#### Access Lifecycle Management:
+##### Access Lifecycle Management:
 - Utilizing dynamic groups and role-based access, Microsoft Entra ID automates access lifecycle processes.
 - Dynamic groups use attribute-based rules for automated evaluation, adapting access rights throughout a user's organizational journey.
 
-#### Privileged Access Lifecycle (Microsoft Entra Privileged Identity Management - PIM):
+##### Privileged Access Lifecycle (Microsoft Entra Privileged Identity Management - PIM):
 - Monitoring privileged access is crucial, and Microsoft Entra PIM provides additional controls for securing access rights.
 - Governance controls help minimize access, reducing the risk associated with privileged access.
 
 *Summary: Microsoft Entra ID Governance focuses on identity and access lifecycle management, ensuring efficiency, and integration with HR systems, dynamic groups, and Microsoft Entra PIM contribute to a robust governance framework.*
 
-#### Access Reviews:
+#### Describe Microsoft Access Reviews:
 ##### Key Use Cases:
 - Access reviews play a crucial role in evaluating privileged roles, critical data access, policy exceptions, guest user necessity, and recurring validation at specified frequencies.
 
@@ -171,7 +171,7 @@
 
 *Summary: Access reviews, entitlement management, and terms of use collectively contribute to a robust identity governance framework within Microsoft Entra ID, ensuring security, compliance, and efficient access management.*
 
-#### Privileged Identity Management (PIM) Overview:
+#### Describe the capabilities of Microsoft Entra Privileged Identity Management (PIM) Overview:
 - PIM in Microsoft Entra ID ensures controlled, monitored, and just-in-time privileged access.
 - Its capabilities include just-in-time access, time-bound assignments, approval-based activations, visible notifications, auditable access history, and oversight of administrator privileges.
 
@@ -184,22 +184,23 @@
 ##### Audit:
 - PIM audit history tracks role assignments and activations for privileged roles, ensuring transparency and accountability.
 
-#### Microsoft Entra ID Protection Overview: Capabilities:
+#### Describe MicrosofT Entra ID Protection
+##### Capabilities:
 - Automating risk detection and remediation, Microsoft Entra ID Protection focuses on identity-based risks.
 - It uses signals from Entra ID, Microsoft Accounts, and Xbox for risk analysis, offering flexible data export options for further analysis.
 
-#### Detect Risks:
+##### Detect Risks:
 - Identifying sign-in and user risks, Microsoft Entra ID Protection ensures proactive identification of potential compromises.
 
-#### Investigate Risks:
+##### Investigate Risks:
 - Reports and risk factor analysis provide visibility into risk factors, facilitating informed decisions on potential compromise.
 
-#### Remediate Risks:
+##### Remediate Risks:
 - Automated actions and manual reviews based on risk policies allow flexible and effective risk mitigation.
 
 *Note: Microsoft Entra ID Protection now includes workload identity protection for applications and service principals, managing risks associated with their unique characteristics.*
 
-#### Microsoft Entra Permissions Management:
+#### Describe Microsoft Entra Permissions Management:
 ##### Overview:
 - Cloud Infrastructure Entitlement Management (CIEM) for Azure, AWS, and GCP supports Zero Trust least privilege access.
 - It addresses multicloud challenges, risk complexity, and security compliance.
@@ -226,15 +227,17 @@
 
 *Summary: Access reviews, entitlement management, terms of use, PIM, Microsoft Entra ID Protection, permissions management, and verified ID collectively contribute to a comprehensive identity and access management framework within Microsoft Entra ID.*
 
-## 3. Describe the capabilities of Microsoft security solutions (35–40%)
+## Describe the capabilities of Microsoft security solutions (35–40%)
 
-### Azure DDoS Protection
+### Describe core infrastructure security services in Azure
 
-#### Overview
+#### Azure DDoS Protection
+
+##### Overview
 - Counteracts Distributed Denial of Service (DDoS) attacks targeting applications and servers.
 - Addresses three common DDoS attack types: Volumetric, Protocol, Resource layer.
 
-#### Azure DDoS Protection
+##### Azure DDoS Protection
 1. **Protection Layers:**
    - Network layer (Layer 3) and transport layer (Layer 4) defense.
    - Adaptive real-time tuning for intelligent traffic profiling.
@@ -251,18 +254,18 @@
       - Higher threshold, no telemetry or alerting.
       - Application-specific monitoring and defense.
 
-#### Benefits
+##### Benefits
 - Mitigates DDoS attacks at the network and transport layers.
 - Adapts to changing traffic patterns through adaptive profiling.
 - Utilizes telemetry, monitoring, and alerting for proactive defense.
 
-# Azure Firewall (Alpha)
+#### Describe Azure Firewall
 
-#### Overview
+##### Overview
 - Managed, cloud-based network security service within Azure.
 - Ensures threat protection for cloud workloads and resources.
 
-#### Key Features
+##### Key Features
 1. **Deployment Model:**
    - Scalable deployment on any virtual network.
    - Centralized deployment recommended for effective network traffic control.
@@ -284,14 +287,14 @@
    - Integrated with Azure Monitor for telemetry collection.
    - Supports Azure Monitor logs for in-depth analysis and action.
 
-### Web Application Firewall (WAF) (Alpha)
+#### Describe Web Application Firewall (WAF)
 
-#### Overview
+##### Overview
 - Centralized protection against web application exploits.
 - Simplifies security management and enhances response time.
 - Addresses vulnerabilities in a centralized manner.
 
-#### Key Features
+##### Key Features
 1. **Protection Scope:**
    - Centralized protection for web applications.
    - Guards against common exploits and vulnerabilities.
@@ -304,14 +307,14 @@
    - Defends against application-layer DDoS attacks (e.g., HTTP Floods).
    - Ensures robust protection against application threats.
 
-### Network Segmentation in Azure (Alpha)
+#### Describe nNetwork Segmentation in Azure (Alpha)
 
-#### Overview
+##### Overview
 - Division of the network into smaller segments.
 - Supports the Zero Trust model and a defense in depth strategy.
 - Enhances security posture and facilitates breach containment.
 
-#### Benefits
+##### Benefits
 1. **Containment and Control:**
    - Enables precise control of communication paths.
    - Contains the impact in case of a compromised segment.
@@ -325,23 +328,23 @@
    - Provides network-level containment and isolation.
    - Supports multiple VNets and subnets for effective segmentation.
 
-#### Implementation
+##### Implementation
 - Explicit provisioning of communication paths for enhanced control.
 - Better management of resource interactions.
 - Strengthens security posture and minimizes lateral spread of attacks.
 
-### Azure Network Security Groups (NSGs) (Alpha)
+#### Describe Azure Network Security Groups (NSGs)
 
-#### Overview
+##### Overview
 - Filters network traffic to and from Azure resources within a virtual network.
 - Comprises inbound and outbound security rules for effective traffic filtering.
 - Associated with virtual network subnets and network interfaces.
 
-#### Inbound and Outbound Rules
+##### Inbound and Outbound Rules
 - Inbound: Rules for incoming traffic to resources.
 - Outbound: Rules for outgoing traffic from resources.
 
-#### NSG Properties
+##### NSG Properties
 1. **Rule Components:**
    - Name, Priority, Source/Destination, Protocol, Direction, Port Range, Action.
    - Unique name for rule identification.
@@ -357,19 +360,19 @@
    - Outbound: AllowVNetOutBound, AllowInternetOutBound, DenyAllOutBound.
    - Default rules can't be removed but can be overridden.
 
-#### Difference from Azure Firewall
+##### Difference from Azure Firewall
 - NSGs provide distributed traffic filtering within virtual networks.
 - Azure Firewall serves as a centralized, stateful firewall for network and application-level protection.
 - NSGs complement Azure Firewall for an integrated approach to network security.
 
-# Azure Bastion (Alpha)
+#### Describe Azure Bastion
 
-#### Overview
+##### Overview
 - Facilitates secure RDP and SSH connectivity to VMs from the Azure portal.
 - PaaS service provisioned within the virtual network.
 - Utilizes TLS for secure connectivity without public IP or agent.
 
-#### Key Benefits
+##### Key Benefits
 1. **Direct Azure Portal Connectivity:**
    - Enables RDP and SSH directly within the Azure portal.
    - Eliminates the need for a public IP on Azure VMs.
@@ -390,14 +393,14 @@
 5. **SKUs:**
    - Basic and Standard SKUs available for Azure Bastion.
 
-### Azure Key Vault (Alpha)
+#### Describe Azure Key Vault
 
-#### Overview
+##### Overview
 - Cloud service for securely storing and accessing secrets.
 - Manages API keys, passwords, certificates, and cryptographic keys.
 - Addresses secrets, key, and certificate management.
 
-#### Key Features
+##### Key Features
 1. **Secrets Management:**
    - Ensures secure storage and controlled access.
    - Centralized management of application secrets.
@@ -414,7 +417,7 @@
    - Standard: Encrypts with a software key.
    - Premium: Includes HSM-protected keys.
 
-#### Why Use Key Vault
+##### Why Use Key Vault
 - Centralizes application secrets securely.
 - Manages encryption keys for robust data protection.
 - Simplifies SSL/TLS certificate management.
@@ -422,14 +425,16 @@
 - Provides monitoring and logging for access and usage.
 - Simplifies administration of application secrets.
 
-### Microsoft Defender for Cloud (Alpha)
 
-#### Overview
+### Describe security management capabilities of Azure
+#### Describe Microsoft Defender for Cloud
+
+##### Overview
 - Cloud-native application protection platform (CNAPP).
 - Integrates DevSecOps, Cloud Security Posture Management (CSPM), and Cloud Workload Protection Platform (CWPP).
 - Shields against cyber threats and vulnerabilities.
 
-#### Components
+##### Components
 1. **DevSecOps:**
    - Unifies security management at the code level across multicloud and multiple-pipeline environments.
    - Safeguards code management environments and pipelines.
@@ -444,62 +449,60 @@
    - Provides specific protections for servers, containers, storage, databases, and other workloads.
    - Delivers security alerts to detect and respond to threats promptly.
 
-### Security Policies and Initiatives (Alpha)
+#### Describe how security policies and initiatives improve the cloud security posture
 
-#### Azure Policy Definitions and Initiatives
+##### Azure Policy Definitions and Initiatives
 - Azure Policy Definitions: Rules specifying particular security conditions.
 - Security Initiative: A collection of Azure Policy definitions grouped towards a specific security goal.
 - Assignable to various scopes, including management groups, subscriptions, and resource groups.
 
-#### Microsoft Cloud Security Benchmark (MCSB)
+##### Microsoft Cloud Security Benchmark (MCSB)
 - Microsoft-authored guidelines for security and compliance.
 - Builds on controls from CIS and NIST, focusing on cloud-centric security.
 - Comprises ID, Control Domain, Mapping to industry frameworks, Recommendations, Azure Guidance, AWS Guidance.
 
-#### Security Recommendations
+##### Security Recommendations
 - Arise from assessing resources against policies.
 - Periodically analyzed for compliance status.
 - Offer insights into security misconfigurations, including descriptions, remediation steps, and affected resources.
 
-### Cloud Security Posture Management (CSPM) (Alpha)
+#### Describe Cloud Security Posture Management (CSPM)
 
-#### Secure Score
+##### Secure Score
 - Central feature providing visibility into security posture.
 - Aggregates findings into a single score, where a higher score indicates a lower risk level.
 - Reflects compliance with MCSB and other standards.
 
-#### Hardening Recommendations
+##### Hardening Recommendations
 - Offers guidance to enhance security posture.
 - Grouped into security controls.
 - Implementing all recommendations in a control improves the overall score.
 
-#### CSPM Plan Options
+##### CSPM Plan Options
 - Foundational CSPM: Includes asset discovery, continuous assessment, security recommendations, compliance with MCSB, and secure score (free).
 - Optional Defender CSPM Plan: Provides advanced capabilities, tools, and assessment for a broad range of benchmarks, regulatory standards, and custom security policies.
 
-### Enhanced Security of Microsoft Defender for Cloud (Alpha)
-
-#### Defender Plans
+##### Defender Plans
 - Microsoft Defender for servers, App Service, Storage, SQL, Kubernetes, Container Registries, Key Vault, Resource Manager, DNS, open-source relational protections.
 - Workload-specific plans with advanced protections.
 
-#### Enhanced Security Features
+#### Describe enhanced security features provided by cloud workload protection
 - Comprehensive endpoint detection and response (EDR).
 - Vulnerability scanning for virtual machines, container registries, and SQL resources.
 - Multicloud and hybrid security.
 - Threat protection alerts, compliance tracking, access and application controls.
 
-#### Integration with Microsoft Defender Plans
+##### Integration with Microsoft Defender Plans
 - Plans run simultaneously for comprehensive defense.
 - Advanced features tailored to specific resource types.
 
-### DevOps Security Management (Alpha)
+##### DevOps Security Management
 
-#### Overview
+##### Overview
 - Merges development (Dev) and operations (Ops) for unified application planning, development, delivery, and operations.
 - Defender for DevOps empowers security teams in multi-pipeline environments (GitHub, Azure DevOps).
 
-#### Key Capabilities
+##### Key Capabilities
 1. **Unified Visibility:**
    - Provides full visibility into DevOps inventory and security posture.
    - Offers a single view for security administrators.
@@ -513,21 +516,21 @@
    - Prioritizes critical code fixes with Pull Request annotations.
    - Triggers custom workflows for developers.
 
-#### Defender for DevOps Console
+##### Defender for DevOps Console
 - Manages connected DevOps environments.
 - Provides security teams with an overview of discovered issues.
 - Integrates with Defender for Cloud for contextual insights.
 
-### Microsoft Security Solutions Overview 
+### Describe capabilities of Microsoft Sentinel
 
-#### 1. Define the Concepts of SIEM and SOAR
+#### Define the Concepts of SIEM and SOAR
 - SIEM and SOAR enhance threat visibility and response.
   - **SIEM:**
     - Collects and analyzes data for alerts and incidents.
   - **SOAR:**
     - Takes alerts, triggers automated workflows to mitigate issues.
 
-#### 2. Describe Threat Detection and Mitigation in Microsoft Sentinel
+####  Describe Threat Detection and Mitigation in Microsoft Sentinel
 - **Microsoft Sentinel:**
   - Cloud-native SIEM/SOAR solution.
   - Collects data across users, devices, applications.
@@ -535,7 +538,7 @@
   - Investigates, responds rapidly, and automates security tasks.
   - Features connectors, workbooks, analytics, and playbooks.
 
-#### 3. Describe Microsoft Security Copilot
+#####  Describe Microsoft Security Copilot
 - **Security Copilot:**
   - Generative AI security tool.
   - Defends at machine speed and scale.
@@ -545,7 +548,7 @@
 
 ---
 
-### Microsoft Defender XDR and Related Services (Bravo)
+### Describe threat protection with Microsoft 365 Defender
 
 #### Microsoft Defender XDR Simplified
 **Microsoft Defender XDR:**
@@ -553,7 +556,7 @@
 - Coordinates detection, prevention, investigation, and response.
 - Protects endpoints, identities, email, and applications.
 
-##### Endpoint Protection (Microsoft Defender for Endpoint)
+#### Endpoint Protection (Microsoft Defender for Endpoint)
 - Unified platform for prevention, detection, investigation, and response.
 - Core Defender Vulnerability Management.
 - Attack Surface Reduction.
@@ -571,7 +574,7 @@
 - Remediation and tracking.
 - Dashboard insights.
 
-##### Email Protection (Microsoft Defender for Office 365)
+#### Email Protection (Microsoft Defender for Office 365)
 - Safeguards against email threats.
 - Preset security policies.
 - Threat protection policies.
@@ -579,28 +582,28 @@
 - Threat investigation and response.
 - Automated investigation and response.
 
-##### Identity Protection (Microsoft Defender for Identity)
+#### Identity Protection (Microsoft Defender for Identity)
 - Uses Active Directory signals.
 - Monitors user behavior.
 - Protects user identities and credentials.
 - Identifies suspicious activities.
 - Incident information on a timeline.
 
-##### Cloud App Protection (Microsoft Defender for Cloud Apps)
+#### Cloud App Protection (Microsoft Defender for Cloud Apps)
 - Comprehensive cross-SaaS solution.
 - Cloud Access Security Broker (CASB) functionality.
 - SaaS Security Posture Management (SSPM).
 - Advanced threat protection.
 - App-to-app protection.
 
-##### Threat Intelligence (Defender TI)
+#### Describe Microsoft Defender Threat Intelligence (Defender TI)
 - Access threat intelligence from Defender portal.
 - Aggregates critical threat information.
 - Vulnerability articles.
 - Data sets for infrastructure analysis.
 - Reputation scoring and analyst insights.
 
-##### Defender Portal
+#### Describe the Microsoft 365 Defender portal
 - Centralizes protection, detection, investigation, and response.
 - Tailored for security teams.
 - Customizable navigation.
@@ -625,11 +628,12 @@
 - Microsoft Defender XDR: Azure subscription security.
 - Microsoft Defender Portal: Organization-wide security across apps, devices, and identities.
 
----
+## Describe the capabilities of Microsoft compliance solutions (20–25%)
+### Describe Microsoft Service Trust Portal and privacy principles
 
-### Service Trust Portal (STP) and Privacy Principles
+#### Service Trust Portal (STP) and Privacy Principles
 
-#### Service Trust Portal (STP) Content Categories
+##### Service Trust Portal (STP) Content Categories
 1. **Certifications, Regulations, Standards:**
    - Security info aiding regulatory compliance.
 2. **Reports, Whitepapers, Artifacts:**
@@ -640,8 +644,6 @@
 ##### My Library
 - Users can add documents to their library for easy access.
 - Notifications alert users about document updates.
-
----
 
 #### Microsoft's Privacy Principles
 Microsoft prioritizes privacy with six principles:
@@ -658,10 +660,6 @@ Microsoft prioritizes privacy with six principles:
 6. **Benefits to Users:**
    - Collected data aims to benefit users through troubleshooting, feature improvement, and personalized experiences.
 
----
-
-### Microsoft Priva and Compliance Management 
-
 #### Microsoft Priva
 Privacy concerns rise globally, requiring organizations to adopt a "privacy by default" approach. Microsoft Priva helps organizations meet regulatory requirements, build trust, and address challenges such as:
 - Employee data handling practices.
@@ -676,7 +674,7 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 
 ---
 
-### Microsoft Purview Compliance Portal 
+### Describe compliance management capabilities of Microsoft Purview
 
 #### Microsoft Purview Compliance Portal
 - Centralizes tools and data for organization compliance.
@@ -684,7 +682,7 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 - Home page cards display compliance status, solutions, and active alerts.
 - Default cards include Compliance Manager, Solutions Catalog, and Active Alerts.
 
-##### Compliance Manager
+#### Compliance Manager
 - Part of Microsoft Purview Compliance Portal.
 - Aids in managing compliance requirements.
 - Features prebuilt assessments, workflow capabilities, and improvement actions.
@@ -731,9 +729,9 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 
 ---
 
-### Microsoft Purview Simplified Summary (Bravo)
+### Describe information protection, data lifecycle management, and data governance capabilities of Microsoft Purview
 
-#### 1. Data Discovery and Classification
+####  Data Discovery and Classification
 ##### Overview
 - Microsoft Purview helps organizations discover, classify, and protect data.
 ##### Capabilities
@@ -743,7 +741,7 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 - Identify sensitive content.
 - Classify data through trainable classifiers, Sensitive Information Types (SIT).
 
-#### 2. Information Protection
+#### Information Protection
 ##### Overview
 - Purview Information Protection ensures data protection throughout its lifecycle.
 ##### Capabilities
@@ -754,13 +752,13 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 - Automate data management for compliance.
 - Tools: Retention policies, labels, records management.
 
-#### 3. Data Classification in Compliance Portal
+#### Data Classification in Compliance Portal
 ##### Overview
 - Purview Compliance Portal aids in data classification.
 ##### Capabilities
 - Data classification tools: SIT, trainable classifiers, content explorer, activity explorer.
 
-#### 4. Sensitivity Labels and Policies
+####  Sensitivity Labels and Policies
 ##### Overview
 - Safeguard data with sensitivity labels and policies.
 ##### Sensitivity Labels
@@ -770,7 +768,7 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 - Apply, justify, and enforce label changes.
 - Link to custom help pages.
 
-#### 5. Data Loss Prevention (DLP)
+####  Data Loss Prevention (DLP)
 ##### Overview
 - Prevent data loss with DLP policies in Purview.
 ##### Implementation
@@ -779,43 +777,44 @@ Privacy concerns rise globally, requiring organizations to adopt a "privacy by d
 ##### Protective Actions
 - Policy tips, blocking, quarantine, and monitoring.
 
-#### 6. Endpoint DLP
+####  Endpoint DLP
 ##### Overview
 - Audit and manage user activities on sensitive items on Windows and macOS devices.
 ##### Examples
 - Creation, renaming, copying, printing, accessing through unallowed apps.
 
-#### 7. Retention Policies and Labels
+#### Retention Policies and Labels
 ##### Overview
 - Manage content lifecycle with retention policies and labels.
 ##### Actions
 - Retain, delete, or retain and then delete.
 - Settings for SharePoint, Teams, Viva Engage, Exchange.
 
-#### 8. Records Management
+####  Records Management
 ##### Overview
 - Purview Records Management for legal and regulatory compliance.
 ##### Features
 - Labeling content as a record.
 - Event-based retention, disposition review.
 
-#### 9. Unified Data Governance
+####  Unified Data Governance
 ##### Overview
 - Microsoft Purview provides unified data governance.
 ##### Components
 - Data Map, Data Catalog, Data Estate Insights, Data Policy.
 - Addresses challenges in data discovery, security, and documentation.
 
-#### 10. Data Sharing (Preview)
+####  Data Sharing (Preview)
 ##### Overview
 - Purview Data Sharing for secure data sharing within or across organizations.
 ##### Capabilities
 - Centralized management, monitoring, and revocation of data sharing relationships.
 
+### Describe insider risk, eDiscovery, and audit capabilities in Microsoft Purview
 #### Insider Risk Management
 Microsoft Purview helps detect and address internal risks by configuring policies, managing alerts, triaging, investigating, and taking actions. It covers scenarios like data theft, leaks, and offensive behavior.
 
-#### Communication Compliance
+##### Communication Compliance
 Microsoft Purview scans messages, detects policy violations, and enables admins to configure, investigate, remediate, and monitor compliance. It ensures adherence to corporate, risk, and regulatory policies.
 
 #### eDiscovery Solutions
