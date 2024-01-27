@@ -7,7 +7,10 @@
 - IaaS: Customer not responsible for physical components.
 - PaaS: Cloud provider manages hardware and OS; customer handles applications and data.
 - SaaS: Cloud provider manages everything except data, devices, accounts, and identities.
-- Customer Responsibilities: Information, devices (mobile and PCs), accounts, and identities.
+- Customer Responsibilities: Information, devices (mobile and PCs), accounts, and identities.<br>
+
+
+![Screenshot 2024-01-27 104929](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/bff36ad4-ce94-46d2-9631-ada4594d0b93)
 
 #### Defense in Depth:
 - Multilayered security approach.
