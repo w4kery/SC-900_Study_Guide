@@ -55,6 +55,9 @@
 - Key Features: Unified identity system, secure access to personal devices, collaboration with partners.
 - Identity Secure Score: Percentage indicating security alignment.
 
+![Screenshot 2024-01-29 201942](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/f28dd12a-4b6f-471a-bec7-4bc482de344d)
+
+
 #### Types of Identities in Microsoft Entra ID:
 - User Identities: Internal members, external guests, external members, internal guests.
 - Device Identities: Registered, joined, hybrid joined devices.
