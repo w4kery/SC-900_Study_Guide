@@ -84,7 +84,12 @@
 - Security Defaults recommended for basic security.
 - Self-Service Password Reset (SSPR) enables users to change or reset passwords.
 - SSPR Authentication Methods: Mobile app, email, security questions.
-- Password Write-Back updates on-premises Active Directory.
+- Password Write-Back updates on-premises Active Directory. <br>
+
+
+![Screenshot 2024-01-29 165842](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/2d874dff-02d2-485e-9536-b2eb4109f128)
+
+
 
 #### Password Protection and Management Capabilities in Microsoft Entra ID:
 ##### Global Banned Password List:
