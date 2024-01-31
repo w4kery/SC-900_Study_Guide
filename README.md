@@ -405,7 +405,10 @@
    - Azure platform ensures Bastion is always up-to-date.
 
 5. **SKUs:**
-   - Basic and Standard SKUs available for Azure Bastion.
+   - Basic and Standard SKUs available for Azure Bastion. <br>
+
+![Screenshot 2024-01-30 184840](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/d10785e4-cd18-4504-8c49-3d19ce40f417)
+
 
 #### Describe Azure Key Vault
 
