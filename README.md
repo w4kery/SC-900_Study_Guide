@@ -609,7 +609,10 @@
 - Threat protection policies.
 - Real-time reports.
 - Threat investigation and response.
-- Automated investigation and response.
+- Automated investigation and response.<br>
+
+  ![Screenshot 2024-01-31 155432](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/f8bafc2b-8f3d-4108-ba57-8b147fa6c860)
+
 
 #### Identity Protection (Microsoft Defender for Identity)
 - Uses Active Directory signals.
