@@ -316,7 +316,10 @@
 
 3. **Application Layer Protection:**
    - Defends against application-layer DDoS attacks (e.g., HTTP Floods).
-   - Ensures robust protection against application threats.
+   - Ensures robust protection against application threats.<br>
+
+![Screenshot 2024-01-30 182021](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/6b772fdc-717d-4c60-8c48-bac46df86efd)
+
 
 #### Describe Network Segmentation in Azure
 
