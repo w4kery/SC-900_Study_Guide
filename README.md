@@ -553,7 +553,10 @@
   - Collects data across users, devices, applications.
   - Detects threats using analytics and threat intelligence.
   - Investigates, responds rapidly, and automates security tasks.
-  - Features connectors, workbooks, analytics, and playbooks.
+  - Features connectors, workbooks, analytics, and playbooks. <br>
+ 
+![Screenshot 2024-01-30 190623](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/b613ed4a-18f1-4ac9-a971-e00a1981ed1c)
+
 
 #####  Describe Microsoft Security Copilot
 - **Security Copilot:**
