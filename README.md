@@ -564,7 +564,12 @@
   - Defends at machine speed and scale.
   - Key use cases: security posture management, incident response, security reporting.
   - Utilizes a prompt bar for natural language queries.
-  - Ensures data privacy and integrates with Microsoft Sentinel.
+  - Ensures data privacy and integrates with Microsoft Sentinel.<br>
+
+
+![Screenshot 2024-01-30 192514](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/745dbec7-2e1a-415b-a8bc-4d036d6f61ff)
+
+
 
 ---
 
