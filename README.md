@@ -464,7 +464,11 @@
 
 3. **CWPP:**
    - Provides specific protections for servers, containers, storage, databases, and other workloads.
-   - Delivers security alerts to detect and respond to threats promptly.
+   - Delivers security alerts to detect and respond to threats promptly.<br>
+
+![Screenshot 2024-01-30 193407](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/2506ebfa-1efb-4a6f-a909-cc78ed63f59f)
+
+
 
 #### Describe how security policies and initiatives improve the cloud security posture
 
