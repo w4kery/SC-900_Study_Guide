@@ -622,7 +622,10 @@
 - Monitors user behavior.
 - Protects user identities and credentials.
 - Identifies suspicious activities.
-- Incident information on a timeline.
+- Incident information on a timeline. <br>
+
+![Screenshot 2024-01-31 161702](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/2d16a15d-a4ff-49c3-9fed-8047bce9e506)
+
 
 #### Cloud App Protection (Microsoft Defender for Cloud Apps)
 - Comprehensive cross-SaaS solution.
