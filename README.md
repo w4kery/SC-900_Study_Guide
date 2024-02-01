@@ -594,7 +594,10 @@
 - Automated Investigation and Remediation (AIR).
 - Microsoft Secure Score for Devices.
 - Microsoft Threat Experts.
-- Integrates with Microsoft Defender suite, Intune, and Defender for Cloud.
+- Integrates with Microsoft Defender suite, Intune, and Defender for Cloud.<br>
+
+![Screenshot 2024-01-31 160200](https://github.com/w4kery/SC-900_Study_Guide/assets/32207684/b3e7ea31-55ac-49b2-9726-b27f522fc75f)
+
 
 ##### Vulnerability Management (Defender Vulnerability Management)
 - Continuous asset visibility and risk-based assessments.
